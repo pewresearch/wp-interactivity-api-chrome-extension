@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/devtools.js"],
+  "sourcesContent": ["chrome.devtools.panels.create(\n\t'WP Interactivity',\n\tnull,\n\t'panel.html',\n\tfunction (panel) {\n\t\t// panel created\n\t\tconsole.log('panel created', panel);\n\t}\n);\n"],
+  "mappings": "MAAA,OAAO,SAAS,OAAO,OACtB,mBACA,KACA,aACA,SAAUA,EAAO,CAEhB,QAAQ,IAAI,gBAAiBA,CAAK,CACnC,CACD",
+  "names": ["panel"]
+}

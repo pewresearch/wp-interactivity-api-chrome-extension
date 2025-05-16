@@ -1,0 +1,56 @@
+.wp-context-dot {
+	position: absolute;
+	top: -0.25em;
+	left: -0.25em;
+	width: 10px;
+	height: 10px;
+	background: #0073aa;
+	border: 2px solid white;
+	border-radius: 50%;
+	cursor: pointer;
+	z-index: 9999;
+  }
+
+  .wp-context-popover {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	margin-top: 4px;
+	max-width: 320px;
+	max-height: 400px;
+	overflow: auto;
+	background: white;
+	border: 1px solid #ddd;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+	padding: 8px;
+	font-family: sans-serif;
+	font-size: 12px;
+	line-height: 1.4;
+	z-index: 10000;
+  }
+  .wp-context-popover h4 {
+	margin: 4px 0 2px;
+	font-size: 13px;
+	font-weight: bold;
+  }
+  .wp-context-directives {
+	margin: 0 0 8px;
+	padding: 0;
+	list-style: none;
+  }
+  .wp-context-directives li {
+	margin: 2px 0;
+	font-family: monospace;
+  }
+  .wp-context-popover pre {
+	margin: 0;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+  }
+
+.wp-context-dot-outline {
+  outline: 2px solid #ff9800;
+  outline-offset: 2px;
+  /* fallback for browsers that don't support outline-offset */
+  box-shadow: 0 0 0 2px #ff9800;
+}

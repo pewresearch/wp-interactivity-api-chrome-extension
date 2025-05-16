@@ -1,0 +1,13 @@
+{
+  "name": "wp-interactivity-inspector",
+  "version": "1.1.0",
+  "scripts": {
+    "build:js": "esbuild src/content-script.js src/devtools.js src/panel.js --bundle --minify --sourcemap --outdir=dist --platform=browser",
+    "copy:static": "cp src/manifest.json src/content-styles.css src/panel.html src/devtools.html dist/ && cp -R src/icons dist/icons",
+    "build": "npm run build:js && npm run copy:static",
+    "zip": "cd dist && zip -r ../wp-interactivity-inspector.zip ."
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.0"
+  }
+}

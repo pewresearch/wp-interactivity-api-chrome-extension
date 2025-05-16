@@ -1,0 +1,38 @@
+# Hidden System Files
+[Tt]humbs.db
+[Dd]esktop.ini
+.DS_Store
+*.DS_store
+.DS_store?
+node_modules
+node_modules/
+.sass-cache
+*/*/.npmrc
+git-subrepo
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+artifacts/
+
+## Ignore any sql files or .sql.gz files in the root of the repo
+*.sql
+*.sql.gz
+export.sql.zip
+
+# Cursor rules
+.cursorrules
+.cursorignore
+
+# Repomix
+repomix-output.txt
